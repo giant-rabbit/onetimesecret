@@ -34,7 +34,7 @@ class Onetime::App
       # We check get here to stop an infinite redirect loop.
       # Pages redirecting from a POST can get by with the same page once.
       redirect = '/error' if req.get? && redirect.to_s == req.request_path
-      res.header['Content-Language'] = req.env['ots.locale'] unless res.header['Content-Language']
+#      res.header['Content-Language'] = req.env['ots.locale'] unless res.header['Content-Language']
       res.header['Content-Type'] ||= "text/html; charset=utf-8"
       yield
 
