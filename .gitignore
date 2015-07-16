@@ -4,4 +4,5 @@ tmp
 .rudy
 
 .DS_Store
-.config.local.ru
+config.local.ru
+etc.local
