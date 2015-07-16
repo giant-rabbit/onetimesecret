@@ -1,0 +1,12 @@
+.btn-custom {
+ background-color: #e6b34c !important;
+}
+.btn-custom:hover {
+  background-color: #e6a117 !important;
+}
+#banner {
+  border-bottom: 4px solid #e6b34c; /* dd4a22, d22000, b04420 */
+}
+.alert-info {
+  background-color: #d4fff8;
+}
