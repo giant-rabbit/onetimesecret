@@ -130,8 +130,8 @@ module Onetime
   end
   module Config
     extend self
-    SERVICE_PATHS = %w[/etc/onetime ./etc].freeze
-    UTILITY_PATHS = %w[~/.onetime /etc/onetime ./etc].freeze
+    SERVICE_PATHS = %w[/etc/onetime ./etc.local ./etc].freeze
+    UTILITY_PATHS = %w[~/.onetime /etc/onetime ./etc.local ./etc].freeze
     attr_reader :env, :base, :bootstrap
     def load path=self.path
       raise ArgumentError, "Bad path (#{path})" unless File.readable?(path)
