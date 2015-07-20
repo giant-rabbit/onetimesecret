@@ -14,3 +14,17 @@
 .uri input {
   background-color: #ffebd5;
 }
+
+#accordionAdvanced .accordion-toggle {
+  color: #999;
+}
+#accordionAdvanced .accordion-toggle:hover {
+  text-decoration: none;
+}
+#accordionAdvanced .accordion-toggle:before {
+  display: inline-block;
+  content: "-\00a0";
+}
+#accordionAdvanced .accordion-toggle.collapsed:before {
+  content: "+\00a0"
+}
