@@ -6,3 +6,5 @@ tmp
 .DS_Store
 config.local.ru
 etc.local
+/public/web/.well-known
+/vendor/bundle
