@@ -6,8 +6,8 @@ ruby '2.3.1'
 
 gem 'eventmachine', '1.0.4'
 gem 'addressable', '2.2.6'
-gem 'rack', '1.4.5'
-gem 'yajl-ruby', '1.1.0'
+gem 'rack', '1.6.12'
+gem 'yajl-ruby', '1.3.1'
 gem 'thin', '1.7.2'
 
 gem 'mustache', '0.99.3'
@@ -28,9 +28,9 @@ gem 'sysinfo', '0.8.1'
 gem 'annoy', '0.5.6'
 #gem 'rye', '0.9.4'
 
-gem 'httparty', '0.7.7'
+gem 'httparty', '0.10.0'
 
-gem 'mail', '2.5.4'
+gem 'mail', '2.5.5'
 
 # bundle install --frozen --deployment --without=dev
 group :dev do
