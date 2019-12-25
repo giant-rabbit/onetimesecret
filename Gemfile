@@ -17,7 +17,7 @@ gem 'redis', '2.2.2'
 gem 'familia', '0.7.1'
 gem 'storable', '0.8.9'
 
-gem 'encryptor', '1.1.3'
+gem 'encryptor', '3.0.0'
 gem 'bcrypt-ruby', '3.1.5'
 
 gem 'otto', '0.4.1'
