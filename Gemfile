@@ -7,7 +7,7 @@ ruby '2.3.1'
 gem 'eventmachine', '1.0.4'
 gem 'addressable', '2.2.6'
 gem 'rack', '1.6.12'
-gem 'yajl-ruby', '1.3.1'
+gem 'yajl-ruby', '1.4.1'
 gem 'thin', '1.7.2'
 
 gem 'mustache', '0.99.3'
