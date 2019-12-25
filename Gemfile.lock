@@ -1,7 +1,8 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.2.6)
+    addressable (2.7.0)
+      public_suffix (>= 2.0.2, < 5.0)
     amazon-ec2 (0.9.17)
       xml-simple (>= 1.0.12)
     annoy (0.5.6)
@@ -46,6 +47,7 @@ GEM
       addressable (>= 2.2.6)
       rack (>= 1.2.1)
     polyglot (0.3.5)
+    public_suffix (4.0.1)
     rack (1.6.12)
     redis (2.2.2)
     redis-dump (0.3.2)
@@ -91,7 +93,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  addressable (= 2.2.6)
+  addressable (= 2.7.0)
   annoy (= 0.5.6)
   bcrypt-ruby (= 3.1.5)
   encryptor (= 1.1.3)
