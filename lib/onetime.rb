@@ -10,7 +10,7 @@ require 'encryptor'
 require 'bcrypt'
 
 require 'sysinfo'
-require 'gibbler'
+require 'gibbler/mixins'
 require 'familia'
 require 'storable'
 require 'thirdparty/sendgrid'
