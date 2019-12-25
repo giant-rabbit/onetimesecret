@@ -30,7 +30,7 @@ gem 'annoy', '0.5.6'
 
 gem 'httparty', '0.10.0'
 
-gem 'mail', '2.5.5'
+gem 'mail', '2.7.1'
 
 # bundle install --frozen --deployment --without=dev
 group :dev do
