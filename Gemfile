@@ -1,4 +1,5 @@
 source "https://rubygems.org/"
+ruby '2.3.1'
 
 # DEVMACHINE: bundle install
 # PRODUCTION: bundle install --deployment --without dev
@@ -7,23 +8,23 @@ gem 'eventmachine', '1.0.4'
 gem 'addressable', '2.2.6'
 gem 'rack', '1.4.5'
 gem 'yajl-ruby', '1.1.0'
-gem 'thin', '1.5.0'
+gem 'thin', '1.7.2'
 
 gem 'mustache', '0.99.3'
 
-gem 'gibbler', '0.8.9'
+gem 'gibbler', '0.9.0'
 gem 'redis', '2.2.2'
 gem 'familia', '0.7.1'
 gem 'storable', '0.8.9'
 
 gem 'encryptor', '1.1.3'
-gem 'bcrypt-ruby', '3.0.0'
+gem 'bcrypt-ruby', '3.1.5'
 
 gem 'otto', '0.4.1'
 
 gem 'redis-dump', '0.3.2'
 
-gem 'sysinfo', '0.7.3'
+gem 'sysinfo', '0.8.1'
 gem 'annoy', '0.5.6'
 #gem 'rye', '0.9.4'
 
