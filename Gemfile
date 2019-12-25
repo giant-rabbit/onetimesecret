@@ -10,7 +10,7 @@ gem 'rack', '1.6.12'
 gem 'yajl-ruby', '1.3.1'
 gem 'thin', '1.7.2'
 
-gem 'mustache', '0.99.3'
+gem 'mustache', '1.1.1'
 
 gem 'gibbler', '0.9.0'
 gem 'redis', '2.2.2'
