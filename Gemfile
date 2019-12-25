@@ -4,7 +4,7 @@ ruby '2.3.1'
 # DEVMACHINE: bundle install
 # PRODUCTION: bundle install --deployment --without dev
 
-gem 'eventmachine', '1.0.4'
+gem 'eventmachine', '1.2.7'
 gem 'addressable', '2.2.6'
 gem 'rack', '1.6.12'
 gem 'yajl-ruby', '1.3.1'
