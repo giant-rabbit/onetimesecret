@@ -22,7 +22,7 @@ gem 'bcrypt-ruby', '3.1.5'
 
 gem 'otto', '0.4.1'
 
-gem 'redis-dump', '0.3.2'
+gem 'redis-dump', '0.3.6'
 
 gem 'sysinfo', '0.8.1'
 gem 'annoy', '0.5.6'
