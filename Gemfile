@@ -13,7 +13,7 @@ gem 'thin', '1.7.2'
 gem 'mustache', '0.99.3'
 
 gem 'gibbler', '0.9.0'
-gem 'redis', '2.2.2'
+gem 'redis', '4.2.0'
 gem 'familia', '0.7.1'
 gem 'storable', '0.8.9'
 
